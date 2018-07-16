@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+	<system>
+		<section id="general" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+			<label>General</label>
+			<tab>general</tab>
+			<resource>PedroGuerra_DeveloperTest::config_pedroguerra_developertest</resource>
+			<group id="developtest" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+				<label>Developer Test</label>
+				<field id="active" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label" type="select">
+					<label>Is Active</label>
+					<comment>Enable Slider at Homepage</comment>
+					<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+				</field>
+			</group>
+		</section>
+	</system>
+</config>

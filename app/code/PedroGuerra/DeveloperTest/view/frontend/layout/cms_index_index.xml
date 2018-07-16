@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<script src="PedroGuerra_DeveloperTest::js/homeslider.js"/>
+		<css src="PedroGuerra_DeveloperTest::css/flexslider.css"/>
+	</head>
+	<body>
+		<referenceContainer name="content">
+			<block as="slider_homeslider" class="PedroGuerra\DeveloperTest\Block\Slider\HomeSlider" name="slider.homeslider" template="PedroGuerra_DeveloperTest::slider/homeslider.phtml"/>
+		</referenceContainer>
+	</body>
+</page>

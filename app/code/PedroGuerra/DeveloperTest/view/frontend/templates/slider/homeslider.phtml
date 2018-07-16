@@ -1,0 +1,10 @@
+<?php $itemAmout = $block->getItemAmout() ?>
+<div class="flexslider carousel">
+    <ul class="slides">
+        <?php for($i=0; $i<$itemAmout; $i++): ?>
+            <li>
+                <img src="<?php echo $block->getImageUrl($i) ?>" />
+            </li>
+        <?php endfor;?>
+    </ul>
+</div>
